@@ -19,7 +19,7 @@ for(let i =1 ; i<= 19;i++)
         break;
         case 2 : a.innerText = "C";
         a.addEventListener('click',()=>{
-   
+        exp = document.querySelector("input").value;
             exp = exp.substring(0,exp.length-1);
             document.querySelector("input").value = exp;
         })
